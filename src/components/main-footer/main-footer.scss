@@ -1,0 +1,198 @@
+.main-footer {
+  background-color: #8ea4a6;
+
+  &__top {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__bottom {
+    background-color: #fff;
+    min-height: 28px;
+  }
+  
+  &__avatar {
+    position: absolute;
+    top: -54px;
+  }
+
+
+  &__content {
+    padding-top: 76px;
+    text-align: center;
+  }
+
+  &__title,
+  &__description {
+    color: #fff;
+  }
+
+  &__description {
+    margin-bottom: 22px;
+  }
+
+  &__button {
+    border: none;
+    box-shadow: 0 3px 0 #0e5b8d;
+    border-radius: 10px;
+    background-color: #0793ec;
+    margin: 10px 0;
+    padding: 13px 17px 13px 77px;
+    overflow: hidden;
+
+    @media(max-width: 375px) {
+      padding-left: 50px;
+    }
+
+    &-title {
+      color: #ffffff;
+      font-family: 'Helvetica-6-Medium', sans-serif;
+      font-size: 28px;
+      font-weight: 500;
+      text-transform: uppercase;
+      position: relative;
+
+      @media(max-width: 375px) {
+        font-size: 24px;
+      }
+
+      &:before {
+        position: absolute;
+        content: '';
+        background-image: url(../images/comment.png);
+        background-repeat: no-repeat;
+        width: 70px;
+        height: 43px;
+        left: -70px;
+
+        @media(max-width: 375px) {
+          left: -45px;
+        }
+
+      }
+    }
+}
+
+  &__smm {
+    margin-top: 170px;
+
+    &-title {
+      text-align: center;
+      color: #ffffff;
+      font-family: 'Helvetica-4-Light', sans-serif;
+      font-size: 13px;
+      font-weight: 300;
+      text-transform: uppercase;
+    }
+
+    &-list {
+      padding-top: 18px;
+      padding-bottom: 14px;
+    }
+
+    &-item {
+      margin: 5px;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+
+  &__features {
+    display: flex;
+    flex-wrap: wrap;
+    //margin-left: -6px;
+
+    @media(max-width: 992px) {
+      justify-content: center;
+    }
+
+  }
+
+  &__feature {
+    width: 30%;
+    color: #3f3f3f;
+    font-family: 'Helvetica-4-Light', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    padding-left: 26px;
+    padding-top: 5px;
+    margin-right: 22px;
+
+    @media(max-width: 992px) {
+      width: 100%;
+      margin-right: 0;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      align-self: center;
+    }
+
+    &_one {
+      position: relative;
+
+      &:before {
+        position: absolute;
+        width: 19px;
+        height: 20px;
+        top: 2px;
+        left: 0;
+        content: '';
+        background-image: url(../images/alarm_clock.png);
+        background-repeat: no-repeat;
+      }
+    }
+
+    &_two {
+      position: relative;
+      padding-left: 53px;
+
+      @media(max-width: 992px) {
+        margin-left: -53px;
+      }
+
+      &:before {
+        position: absolute;
+        width: 26px;
+        height: 19px;
+        top: 4px;
+        left: 26px;
+        content: '';
+        background-image: url(../images/bomb.png);
+        background-repeat: no-repeat;
+      }
+    }
+
+    &_three {
+      position: relative;
+      padding-left: 53px;
+      padding-top: 8px;
+
+      @media(max-width: 992px) {
+        margin-left: -53px;
+      }
+
+      &:before {
+        position: absolute;
+        width: 21px;
+        height: 21px;
+        top: 3px;
+        left: 28px;
+        content: '';
+        background-image: url(../images/zoom.png);
+        background-repeat: no-repeat;
+      }
+
+      &:after {
+        position: absolute;
+        width: 99px;
+        height: 26px;
+        top: -2px;
+        left: 255px;
+        content: '';
+        background-image: url(../images/logo_uni.png);
+        background-repeat: no-repeat;
+      }
+    }
+  }
+}

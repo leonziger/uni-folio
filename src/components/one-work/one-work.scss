@@ -1,0 +1,23 @@
+.one-work {
+  background-image: url(../images/onework_bg.png);
+  background-repeat: no-repeat;
+  min-height: 565px;
+  //padding-top: 24px;
+  isplay: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &__title {
+  }
+
+  &__description {
+    margin-bottom: 26px;
+  }
+
+}

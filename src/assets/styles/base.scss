@@ -44,13 +44,12 @@ body {
 
 html {
   font: 300 16px 'Helvetica-4-Light', sans-serif;
-  color: #313131;
 }
 
 body{
   margin: 0;
   padding: 0;
-  color: #677482;
+  color: #313131;
 }
 
 img {
@@ -99,4 +98,58 @@ button {
 
 .blue {
   color: #2c85b8;
+}
+
+
+.h1 {
+  font-family: 'Helvetica-6-Medium', sans-serif;
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: -0.5px;
+
+  @media(max-width: 768px) {
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.2;
+  }
+
+  @media(max-width: 576px) {
+    font-size: 20px;
+  }
+
+  @media(max-width: 375px) {
+    font-size: 16px;
+  }
+}
+
+.h2 {
+  font-family: 'Helvetica-8-Heavy', sans-serif;
+  font-size: 37px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  margin-bottom: -9px;
+  text-align: center;
+
+  @media(max-width: 576px) {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+
+  @media(max-width: 375px) {
+    font-size: 24px;
+  }
+}
+
+.h2_subtitle {
+  font-family: 'Helvetica-8-Heavy', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 800;
+  letter-spacing: -1px;
+
+  @media(max-width: 576px) {
+    font-size: 14px;
+    line-height: 1;
+  }
 }

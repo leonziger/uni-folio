@@ -1,13 +1,20 @@
 .main-banner {
   background-image: url(../images/laptop.png);
   background-repeat: no-repeat;
-  background-position: 1208px 16px;
-  min-height: 500px;
-
+  //background-position: 1208px 16px;
+  background-position: top right;
+  padding-top: 83px;
+  padding-bottom: 80px;
 
   &__content {
-    padding-top: 155px;
+    padding-top: 55px;
     padding-left: 43px;
+    text-align: center;
+
+    @media(max-width: 992px) {
+      padding-top: 80px;
+      padding-left: 0;
+    }
   }
 
   &__slogan {
@@ -19,14 +26,59 @@
     letter-spacing: -2.5px;
     line-height: 58px;
     margin-bottom: 17px;
+    text-align: left;
+
+    @media(max-width: 768px) {
+      text-align: center;
+      font-size: 40px;
+      line-height: 1.2;
+    }
+
+    @media(max-width: 576px) {
+      font-size: 36px;
+    }
+
+    @medua(max-width: 375px) {
+      font-size: 30px;
+    }
   }
 
   &__headline {
     position: relative;
-    font-family: 'Helvetica-6-Medium', sans-serif;
-    font-size: 28px;
-    text-transform: uppercase;
-    letter-spacing: -0.5px;
+    text-align: left;
+    margin-bottom: 141px;
+
+    @media(max-width: 768px) {
+      text-align: center;
+      margin-bottom: 100px;
+    }
+
+    @media(max-width: 576px) {
+      margin-bottom: 80px;
+    }
+  }
+  
+  &__button {
+    margin-left: -26px;
+    padding: 10px 30px 8px 50px;
+
+    @media(max-width: 992px) {
+      margin-left: 0;
+    }
+
+    &-title {
+      position: relative;
+
+      &:before {
+        position: absolute;
+        content: '';
+        background-image: url(../images/arrow_up.png);
+        background-repeat: no-repeat;
+        width: 13px;
+        height: 19px;
+        left: -34px;
+      }
+    }
   }
 }
 
@@ -34,4 +86,8 @@ sup {
   position: absolute;
   top: -13px;
   font-size: 18px;
+
+  @media(max-width: 760px) {
+    display: none;
+  }
 }

@@ -1,0 +1,25 @@
+.all-works {
+  padding-top: 40px;
+  padding-bottom: 68px;
+
+  &__list {
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  &__item {
+    margin: 20px 10px;
+    border: 1px solid rgb(18, 18, 18);
+
+    &-title {
+      font-family: 'Helvetica-8-Heavy', sans-serif;
+      font-size: 20px;
+      text-align: center;
+      font-weight: 800;
+      letter-spacing: -1px;
+      padding: 13px 0 18px;
+    }
+  }
+}
