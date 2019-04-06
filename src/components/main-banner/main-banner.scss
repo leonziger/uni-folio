@@ -1,0 +1,37 @@
+.main-banner {
+  background-image: url(../images/laptop.png);
+  background-repeat: no-repeat;
+  background-position: 1208px 16px;
+  min-height: 500px;
+
+
+  &__content {
+    padding-top: 155px;
+    padding-left: 43px;
+  }
+
+  &__slogan {
+    font-family: 'Helvetica-8-Heavy', sans-serif;
+    font-size: 48px;
+    color: #121212;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: -2.5px;
+    line-height: 58px;
+    margin-bottom: 17px;
+  }
+
+  &__headline {
+    position: relative;
+    font-family: 'Helvetica-6-Medium', sans-serif;
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+  }
+}
+
+sup {
+  position: absolute;
+  top: -13px;
+  font-size: 18px;
+}

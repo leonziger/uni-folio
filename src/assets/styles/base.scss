@@ -43,7 +43,8 @@ body {
 }
 
 html {
-  font: 400 14px/22px 'Arial';
+  font: 300 16px 'Helvetica-4-Light', sans-serif;
+  color: #313131;
 }
 
 body{
@@ -96,4 +97,6 @@ button {
   transition: $delay;
 }
 
-
+.blue {
+  color: #2c85b8;
+}
