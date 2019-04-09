@@ -20,6 +20,9 @@
 
   &__content {
     padding-top: 76px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
   }
 
@@ -32,7 +35,13 @@
     margin-bottom: 22px;
   }
 
+  &__callback-form {
+    max-width: 351px;
+    align-self: center;
+  }
+
   &__button {
+    position: relative;
     border: none;
     box-shadow: 0 3px 0 #0e5b8d;
     border-radius: 10px;
@@ -40,6 +49,15 @@
     margin: 10px 0;
     padding: 13px 17px 13px 77px;
     overflow: hidden;
+
+    &-icon {
+      position: absolute;
+      content: '';
+    }
+
+    &:hover {
+      margin-bottom: 10px;
+    }
 
     @media(max-width: 375px) {
       padding-left: 50px;
@@ -57,25 +75,11 @@
         font-size: 24px;
       }
 
-      &:before {
-        position: absolute;
-        content: '';
-        background-image: url(../images/comment.png);
-        background-repeat: no-repeat;
-        width: 70px;
-        height: 43px;
-        left: -70px;
-
-        @media(max-width: 375px) {
-          left: -45px;
-        }
-
-      }
     }
 }
 
   &__smm {
-    margin-top: 170px;
+    margin-top: 15px;
 
     &-title {
       text-align: center;
@@ -195,4 +199,43 @@
       }
     }
   }
+
+  &__form {
+    max-width: 351px;
+    display: flex;
+    flex-direction: column;
+
+    &-input {
+      margin: 10px 0;
+      width: 351px;
+      height: 57px;
+      box-shadow: 0 3px 3px #414141;
+      border-radius: 10px;
+      background-color: #ffffff;
+      color: #6e6e6e;
+      font-family: 'Helvetica-6-Medium', sans-serif;
+      font-size: 18px;
+      font-weight: 500;
+      padding-left: 90px;
+    }
+  }
+
+}
+
+.button-two {
+  padding: 13px 17px 13px 37px;
+}
+
+.icon-one {
+  width: 70px;
+  height: 45px;
+  left: 6px;
+  top: 13px;
+}
+
+.icon-two {
+  top: 10px;
+  width: 70px;
+  height: 48px;
+  left: 15px;
 }

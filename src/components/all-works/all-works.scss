@@ -13,6 +13,41 @@
     margin: 20px 10px;
     border: 1px solid rgb(18, 18, 18);
 
+    &-link {
+      text-decoration: none;
+      color: #313131;
+    }
+
+    &-content {
+      position: relative;
+    }
+
+    &:hover {
+
+      .all-works__item-link {
+        opacity: 0.6;
+      }
+      .all-works__item-layer {
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+
+    &-layer {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      color: #fff;
+      visibility: hidden;
+      opacity: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: opacity .2s, visibility .2s;
+    }
+
     &-title {
       font-family: 'Helvetica-8-Heavy', sans-serif;
       font-size: 20px;

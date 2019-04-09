@@ -13,9 +13,10 @@
 }
 
 ::placeholder {
-  font-size: 16px;
-  color: #23292e;
-  letter-spacing: 0.32px;
+  font-family: 'Helvetica-6-Medium', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #6e6e6e;
 
   @media(max-width: 375px){
     font-size: 14px;
@@ -65,6 +66,7 @@ hr {
 a {
   color: #00a2ff;;
   cursor: default;
+  text-decoration: none;
 }
 
 a[href] {

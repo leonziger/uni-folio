@@ -1,7 +1,6 @@
 .main-banner {
   background-image: url(../images/laptop.png);
   background-repeat: no-repeat;
-  //background-position: 1208px 16px;
   background-position: top right;
   padding-top: 83px;
   padding-bottom: 80px;
@@ -79,15 +78,5 @@
         left: -34px;
       }
     }
-  }
-}
-
-sup {
-  position: absolute;
-  top: -13px;
-  font-size: 18px;
-
-  @media(max-width: 760px) {
-    display: none;
   }
 }
