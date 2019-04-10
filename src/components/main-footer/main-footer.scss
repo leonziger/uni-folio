@@ -49,10 +49,30 @@
     margin: 10px 0;
     padding: 13px 17px 13px 77px;
     overflow: hidden;
+    width: 100%;
+
+    &_two {
+      padding: 13px 17px 13px 37px;
+    }
+
 
     &-icon {
       position: absolute;
       content: '';
+
+      &_one {
+        width: 70px;
+        height: 45px;
+        left: 6px;
+        top: 13px;
+      }
+
+      &_two {
+        top: 10px;
+        width: 70px;
+        height: 48px;
+        left: 15px;
+      }
     }
 
     &:hover {
@@ -60,7 +80,7 @@
     }
 
     @media(max-width: 375px) {
-      padding-left: 50px;
+      max-width: 300px;
     }
 
     &-title {
@@ -201,8 +221,8 @@
   }
 
   &__form {
+    display: none;
     max-width: 351px;
-    display: flex;
     flex-direction: column;
 
     &-input {
@@ -217,25 +237,13 @@
       font-size: 18px;
       font-weight: 500;
       padding-left: 90px;
+
+      @media(max-width: 375px) {
+        max-width: 298px;
+      }
     }
   }
 
 }
 
-.button-two {
-  padding: 13px 17px 13px 37px;
-}
 
-.icon-one {
-  width: 70px;
-  height: 45px;
-  left: 6px;
-  top: 13px;
-}
-
-.icon-two {
-  top: 10px;
-  width: 70px;
-  height: 48px;
-  left: 15px;
-}
