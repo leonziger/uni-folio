@@ -2,10 +2,12 @@
   background-image: url(../images/onework_bg.png);
   background-repeat: no-repeat;
   min-height: 565px;
-  //padding-top: 24px;
-  isplay: flex;
-  justify-content: center;
-  align-items: center;
+  padding-top: 24px;
+
+
+  @media(max-width: 375px) {
+    min-height: 320px;
+  }
 
   &__container {
     display: flex;
@@ -13,7 +15,12 @@
     flex-direction: column;
   }
 
-  &__title {
+  &__video {
+    margin-bottom: 37px;
+
+    @media(max-width: 576px) {
+      margin-bottom: 20px;
+    }
   }
 
   &__description {
