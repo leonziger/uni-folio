@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Сайт вебразработчика и верстальщика</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer="defer" src="js/bundle.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="main-banner">
+    <header class="main-header">
+        <div class="container main-header__container">
+            <nav class="main-header__nav">
+                <a href="#about" class="main-header__nav-link">Обо мне</a>
+                <a href="#last-work" class="main-header__nav-link">Моя последняя работа</a>
+                <a href="#all-works" class="main-header__nav-link">Другие мои работы</a>
+                <a href="#contact-us" class="main-header__nav-link">Связаться со мной</a>
+            </nav>
+            <div class="main-header__menu-toggle">
+                <div class="menu-toggle" data-target=".main-header__nav"><span></span></div>
+            </div>
+        </div>
+    </header>    <div class="container main-banner__container">
+        <div class="main-banner__content">
+            <div class="main-banner__slogan">привет!<br>меня зовут <span class="blue">иванов иван</span></div>
+            <h1 class="h1 main-banner__headline">Я талантливый <span class="blue">веб-разработчик</span> и <span class="blue">верстальщик</span></h1>
+            <a href="#about" class="button main-banner__button">
+                <span class="main-banner__button-title">это моё всё...</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="about" id="about">
+    <div class="container about__container">
+        <div class="about-skills">
+            <h2 class="h2 about__title">С чем работаю</h2>
+            <div class="h2_subtitle about__description">языки, фреймворки, CMS</div>
+            <ul class="about-skills__list">
+                <li class="checkbox about-skills__item">
+                    <div class="checkbox">
+                        <input type="checkbox" class="checkbox__input" id="my-checkbox-1">
+                        <label class="checkbox__icon" for="my-checkbox-1"></label>
+                        <label class="checkbox__label" for="my-checkbox-1">HTML 5</label>
+                    </div>
+                    <div class="about-skills__item-rating"></div>
+                </li>
+                <li class="checkbox about-skills__item">
+                    <div class="checkbox">
+                        <input type="checkbox" class="checkbox__input" id="my-checkbox-2">
+                        <label class="checkbox__icon" for="my-checkbox-2"></label>
+                        <label class="checkbox__label" for="my-checkbox-2">CSS 3</label>
+                    </div>
+                    <div class="about-skills__item-rating"></div>
+                </li>
+                <li class="checkbox about-skills__item">
+                    <div class="checkbox">
+                        <input type="checkbox" class="checkbox__input" id="my-checkbox-3">
+                        <label class="checkbox__icon" for="my-checkbox-3"></label>
+                        <label class="checkbox__label" for="my-checkbox-3">Javascript</label>
+                    </div>
+                    <div class="about-skills__item-rating"></div>
+                </li>
+                <li class="checkbox about-skills__item">
+                    <div class="checkbox">
+                        <input type="checkbox" class="checkbox__input" id="my-checkbox-4">
+                        <label class="checkbox__icon" for="my-checkbox-4"></label>
+                        <label class="checkbox__label" for="my-checkbox-4">jQuery</label>
+                    </div>
+                    <div class="about-skills__item-rating"></div>
+                </li>
+                <li class="checkbox about-skills__item">
+                    <div class="checkbox">
+                        <input type="checkbox" class="checkbox__input" id="my-checkbox-5">
+                        <label class="checkbox__icon" for="my-checkbox-5"></label>
+                        <label class="checkbox__label" for="my-checkbox-5">AJAX</label>
+                    </div>
+                    <div class="about-skills__item-rating"></div>
+                </li>
+                <li class="checkbox about-skills__item">
+                    <div class="checkbox">
+                        <input type="checkbox" class="checkbox__input" id="my-checkbox-6">
+                        <label class="checkbox__icon" for="my-checkbox-6"></label>
+                        <label class="checkbox__label" for="my-checkbox-6">PHP</label>
+                    </div>
+                    <div class="about-skills__item-rating"></div>
+                </li>
+                <li class="checkbox about-skills__item">
+                    <div class="checkbox">
+                        <input type="checkbox" class="checkbox__input" id="my-checkbox-7">
+                        <label class="checkbox__icon" for="my-checkbox-7"></label>
+                        <label class="checkbox__label" for="my-checkbox-7">SQL</label>
+                    </div>
+                    <div class="about-skills__item-rating"></div>
+                </li>
+                <li class="checkbox about-skills__item">
+                    <div class="checkbox">
+                        <input type="checkbox" class="checkbox__input" id="my-checkbox-8">
+                        <label class="checkbox__icon" for="my-checkbox-8"></label>
+                        <label class="checkbox__label" for="my-checkbox-8">NET</label>
+                    </div>
+                    <div class="about-skills__item-rating"></div>
+                </li>
+                <li class="checkbox about-skills__item">
+                    <div class="checkbox">
+                        <input type="checkbox" class="checkbox__input" id="my-checkbox-9">
+                        <label class="checkbox__icon" for="my-checkbox-9"></label>
+                        <label class="checkbox__label" for="my-checkbox-9">RUBY</label>
+                    </div>
+                    <div class="about-skills__item-rating"></div>
+                </li>
+                <li class="checkbox about-skills__item">
+                    <div class="checkbox">
+                        <input type="checkbox" class="checkbox__input" id="my-checkbox-10">
+                        <label class="checkbox__icon" for="my-checkbox-10"></label>
+                        <label class="checkbox__label" for="my-checkbox-10">CMS Wordpress</label>
+                    </div>
+                    <div class="about-skills__item-rating"></div>
+                </li>
+                <li class="checkbox about-skills__item">
+                    <div class="checkbox">
+                        <input type="checkbox" class="checkbox__input" id="my-checkbox-11">
+                        <label class="checkbox__icon" for="my-checkbox-11"></label>
+                        <label class="checkbox__label" for="my-checkbox-11">CMS Joomla</label>
+                    </div>
+                    <div class="about-skills__item-rating"></div>
+                </li>
+                <li class="checkbox about-skills__item">
+                    <div class="checkbox">
+                        <input type="checkbox" class="checkbox__input" id="my-checkbox-12">
+                        <label class="checkbox__icon" for="my-checkbox-12"></label>
+                        <label class="checkbox__label" for="my-checkbox-12">CMS Opencart</label>
+                    </div>
+                    <div class="about-skills__item-rating"></div>
+                </li>
+                <li class="checkbox about-skills__item">
+                    <div class="checkbox">
+                        <input type="checkbox" class="checkbox__input" id="my-checkbox-13">
+                        <label class="checkbox__icon" for="my-checkbox-13"></label>
+                        <label class="checkbox__label" for="my-checkbox-13">CMS Simpla</label>
+                    </div>
+                    <div class="about-skills__item-rating"></div>
+                </li>
+                <li class="checkbox about-skills__item">
+                    <div class="checkbox">
+                        <input type="checkbox" class="checkbox__input" id="my-checkbox-14">
+                        <label class="checkbox__icon" for="my-checkbox-14"></label>
+                        <label class="checkbox__label" for="my-checkbox-14">Android</label>
+                    </div>
+                    <div class="about-skills__item-rating"></div>
+                </li>
+                <li class="checkbox about-skills__item">
+                    <div class="checkbox">
+                        <input type="checkbox" class="checkbox__input" id="my-checkbox-15">
+                        <label class="checkbox__icon" for="my-checkbox-15"></label>
+                        <label class="checkbox__label" for="my-checkbox-15">IOS</label>
+                    </div>
+                    <div class="about-skills__item-rating"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="about-works">
+            <h2 class="h2 about__title">Мой опыт</h2>
+            <div class="h2_subtitle about__description">3 предыдущие места работы</div>
+            <ul class="about-works__list">
+                <li class="about-works__item">
+                    <div class="about-works__item-label">Должность: </div><div class="about-works__item-value">например веб-разработчик</div>
+                </li>
+                <li class="about-works__item">
+                    <div class="about-works__item-label">Компания: </div><div class="about-works__item-value">например UniConsulting</div>
+                </li>
+                <li class="about-works__item">
+                    <div class="about-works__item-label">Срока работы: </div><div class="about-works__item-value">например 3 года</div>
+                </li>
+                <li class="about-works__item">
+                    <div class="about-works__item-label">Задачи: </div>
+                    <ul class="about-works-item-list">
+                        <li class="about-works-item-list__item">например вёрстка адаптивного сайта на Wordpress</li>
+                        <li class="about-works-item-list__item">например програмирование форм</li>
+                    </ul>
+                </li>
+                <!--<li class="about-works__item about-works__item_button">-->
+                <!--</li>-->
+            </ul>
+            <a href="#last-work" class="button about-works__button">
+                <span class="about-works__button-title">это моё всё...</span>
+            </a>
+        </div>
+    </div>
+</div><div class="one-work" id="last-work">
+    <div class="container one-work__container">
+        <h2 class="h2 one-work__title">Одна из моих работ</h2>
+        <div class="h2_subtitle one-work__description">видео скринкаст кейса</div>
+        <div class="one-work__video">
+            <img src="images/video.png" alt="">
+        </div>
+        <img src="images/links.png" alt="">
+    </div>
+</div><div class="all-works" id="all-works">
+    <div class="container all-works__container">
+        <h2 class="h2 all-works__title">Другие мои работы</h2>
+        <div class="h2_subtitle all-works__description">нажмите на рисунок чтоб узнать подробнее</div>
+        <div class="all-works__list">
+            <li class="all-works__item">
+                <a href="#" class="all-works__item-link">
+                    <div  class="all-works__item-content">
+                        <img src="images/project1.png" alt="">
+                        <div class="all-works__item-layer">
+                            <img src="images/hoverlink.png" alt="">
+                        </div>
+                    </div>
+                    <div class="all-works__item-title">название проекта 1</div>
+                </a>
+            </li>
+            <li class="all-works__item">
+                <a href="#" class="all-works__item-link">
+                    <div  class="all-works__item-content">
+                        <img src="images/project2.png" alt="">
+                        <div class="all-works__item-layer">
+                            <img src="images/hoverlink.png" alt="">
+                        </div>
+                    </div>
+                    <div class="all-works__item-title">название проекта 2</div>
+                </a>
+            </li>
+            <li class="all-works__item">
+                <a href="#" class="all-works__item-link">
+                    <div  class="all-works__item-content">
+                        <img src="images/project3.png" alt="">
+                        <div class="all-works__item-layer">
+                            <img src="images/hoverlink.png" alt="">
+                        </div>
+                    </div>
+                    <div class="all-works__item-title">название проекта 3</div>
+                </a>
+            </li>
+        </div>
+    </div>
+</div>
+<footer class="main-footer" id="contact-us">
+    <div class="container main-footer__top">
+        <div class="main-footer__avatar">
+            <img src="images/avatar.png" alt="">
+        </div>
+        <div class="main-footer__content">
+            <h2 class="h2 main-footer__title">Лучше 1 раз услышать</h2>
+            <div class="h2_subtitle main-footer__description">чем 100 раз прочитать</div>
+            <div class="main-footer__callback-form">
+                <button class="button main-footer__button main-footer__button_one">
+                    <img src="images/comment.png" alt="" class="main-footer__button-icon main-footer__button-icon_one">
+                    <span class="main-footer__button-title">познакомиться</span>
+                </button>
+                <form action="#" class="main-footer__form">
+                    <input class="main-footer__form-input" type="text" name="email" autocomplete="off" placeholder="Ваша почта / skype">
+                    <button class="button main-footer__button main-footer__button_two">
+                        <img src="images/connect.png" alt="" class="main-footer__button-icon main-footer__button-icon_two">
+                        <span class="main-footer__button-title">отправить</span>
+                    </button>
+                </form>
+            </div>
+
+
+            <div class="main-footer__smm">
+                <div class="main-footer__smm-title">
+                    мои профили... смотрите, спрашивайте, подписывайтесь
+                </div>
+                <div class="main-footer__smm-list">
+                    <a href="#" class="main-footer__smm-item">
+                        <img src="images/vk.png" alt="">
+                    </a>
+                    <a href="#" class="main-footer__smm-item">
+                        <img src="images/skype.png" alt="">
+                    </a>
+                    <a href="#" class="main-footer__smm-item">
+                        <img src="images/facebook.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-footer__bottom">
+        <div class="container">
+            <ul class="main-footer__features">
+                <li class="main-footer__feature main-footer__feature_one">
+                    время реализации: например 6 часов
+                </li>
+                <li class="main-footer__feature main-footer__feature_two">
+                    уровень сложности:
+                </li>
+                <!--<li class="main-footer__feature main-footer__feature_three">-->
+                    <!--Тестовое задание дла компании-->
+                <!--</li>-->
+            </ul>
+        </div>
+    </div>
+</footer><div class="scrollup">
+    <div class="scrollup__text">up</div>
+</div>
+
+</body>
+</html>
